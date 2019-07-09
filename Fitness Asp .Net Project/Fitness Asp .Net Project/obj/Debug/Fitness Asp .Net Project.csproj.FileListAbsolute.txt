@@ -1,0 +1,208 @@
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\ApplicationInsights.config
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Fitness_Asp.Net_Project.dll.config
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Fitness_Asp.Net_Project.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Fitness_Asp.Net_Project.pdb
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Antlr3.Runtime.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.Web.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Newtonsoft.Json.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Helpers.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Mvc.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Optimization.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Razor.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.Razor.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\WebGrease.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Helpers.xml
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Mvc.xml
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Optimization.xml
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Razor.xml
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.xml
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.Razor.xml
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Antlr3.Runtime.pdb
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Newtonsoft.Json.xml
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.Web.xml
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness Asp .Net Project.csprojResolveAssemblyReference.cache
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness Asp .Net Project.csproj.CoreCompileInputs.cache
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness_Asp.Net_Project.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness_Asp.Net_Project.pdb
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Net.Http.Formatting.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Http.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Http.WebHost.dll
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Net.Http.Formatting.xml
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Http.xml
+C:\Users\ToghrulRr\Desktop\asp .net Project\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Http.WebHost.xml
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\ApplicationInsights.config
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Fitness_Asp.Net_Project.dll.config
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Fitness_Asp.Net_Project.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Fitness_Asp.Net_Project.pdb
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Antlr3.Runtime.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.Web.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.ApplicationInsights.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Newtonsoft.Json.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Net.Http.Formatting.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Helpers.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Http.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Http.WebHost.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Mvc.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Optimization.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Razor.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.Deployment.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.Razor.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\WebGrease.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Net.Http.Formatting.xml
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Http.xml
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Http.WebHost.xml
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Helpers.xml
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Mvc.xml
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Optimization.xml
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Razor.xml
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.xml
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.Deployment.xml
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.Razor.xml
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Antlr3.Runtime.pdb
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Newtonsoft.Json.xml
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.ApplicationInsights.xml
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.Web.xml
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness Asp .Net Project.csproj.CoreCompileInputs.cache
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness Asp .Net Project.csproj.CopyComplete
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness_Asp.Net_Project.dll
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness_Asp.Net_Project.pdb
+C:\Users\code\Desktop\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness Asp .Net Project.csprojAssemblyReference.cache
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\ApplicationInsights.config
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Fitness_Asp.Net_Project.dll.config
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Fitness_Asp.Net_Project.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Fitness_Asp.Net_Project.pdb
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Antlr3.Runtime.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.Web.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.ApplicationInsights.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Newtonsoft.Json.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Net.Http.Formatting.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Helpers.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Http.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Http.WebHost.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Mvc.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Optimization.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Razor.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.Deployment.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.Razor.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\WebGrease.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Net.Http.Formatting.xml
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Http.xml
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Http.WebHost.xml
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Helpers.xml
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Mvc.xml
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Optimization.xml
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Razor.xml
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.xml
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.Deployment.xml
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.Razor.xml
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Antlr3.Runtime.pdb
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Newtonsoft.Json.xml
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.ApplicationInsights.xml
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.Web.xml
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness Asp .Net Project.csproj.CoreCompileInputs.cache
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness Asp .Net Project.csproj.CopyComplete
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness_Asp.Net_Project.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness_Asp.Net_Project.pdb
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\EntityFramework.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\EntityFramework.SqlServer.dll
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\EntityFramework.xml
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\EntityFramework.SqlServer.xml
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness_Asp.Net_Project.Migrations.Createtable.resources
+C:\Users\povil\Desktop\alo\p210-20190702-backend-project-toghrulrzayev\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness Asp .Net Project.csproj.GenerateResource.cache
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\ApplicationInsights.config
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Fitness_Asp.Net_Project.dll.config
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Fitness_Asp.Net_Project.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Fitness_Asp.Net_Project.pdb
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Antlr3.Runtime.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\EntityFramework.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\EntityFramework.SqlServer.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.Web.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.ApplicationInsights.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Newtonsoft.Json.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Net.Http.Formatting.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Helpers.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Http.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Http.WebHost.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Mvc.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Optimization.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Razor.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.Deployment.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.Razor.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\WebGrease.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\EntityFramework.xml
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\EntityFramework.SqlServer.xml
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Net.Http.Formatting.xml
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Http.xml
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Http.WebHost.xml
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Helpers.xml
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Mvc.xml
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Optimization.xml
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.Razor.xml
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.xml
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.Deployment.xml
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\System.Web.WebPages.Razor.xml
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Antlr3.Runtime.pdb
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Newtonsoft.Json.xml
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.ApplicationInsights.xml
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\bin\Microsoft.AI.Web.xml
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness Asp .Net Project.csprojAssemblyReference.cache
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness Asp .Net Project.csproj.CoreCompileInputs.cache
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness Asp .Net Project.csproj.CopyComplete
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness_Asp.Net_Project.dll
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness_Asp.Net_Project.pdb
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness_Asp.Net_Project.Migrations.Createdatabaseandtable.resources
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness Asp .Net Project.csproj.GenerateResource.cache
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness_Asp.Net_Project.Migrations.Description.resources
+C:\Users\povil\Desktop\alo\MVC\Fitness Asp .Net Project\Fitness Asp .Net Project\obj\Debug\Fitness_Asp.Net_Project.Migrations.unique.resources

@@ -1,0 +1,628 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{70D9B580-2A2F-4868-87BC-8F4B883C7366}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fitness_Asp.Net_Project</RootNamespace>
+    <AssemblyName>Fitness_Asp.Net_Project</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\AdminController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ClassCalendarController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ClubInfoController.cs" />
+    <Compile Include="Areas\Admin\Controllers\CouponsController.cs" />
+    <Compile Include="Areas\Admin\Controllers\CourseScheduleController.cs" />
+    <Compile Include="Areas\Admin\Controllers\CourseSchedulesController.cs" />
+    <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Admin\Controllers\PackagesController.cs" />
+    <Compile Include="Areas\Admin\Controllers\UsersController.cs" />
+    <Compile Include="Areas\Admin\DAL\Template.cs" />
+    <Compile Include="Areas\Admin\Models\AdminUser.cs" />
+    <Compile Include="Areas\Admin\Models\Calendars.cs" />
+    <Compile Include="Areas\Admin\Models\ClubInfos.cs" />
+    <Compile Include="Areas\Admin\Models\Coupons.cs" />
+    <Compile Include="Areas\Admin\Models\Cources.cs" />
+    <Compile Include="Areas\Admin\Models\CourseSchedules.cs" />
+    <Compile Include="Areas\Admin\Models\Days.cs" />
+    <Compile Include="Areas\Admin\Models\Packages.cs" />
+    <Compile Include="Areas\Admin\Models\Payments.cs" />
+    <Compile Include="Areas\Admin\Models\Rooms.cs" />
+    <Compile Include="Areas\Admin\Models\Trainers.cs" />
+    <Compile Include="Areas\Admin\Models\UserLists.cs" />
+    <Compile Include="Areas\Admin\Models\UserProfile.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\Auth.cs" />
+    <Compile Include="Migrations\201907081251039_Create database and table.cs" />
+    <Compile Include="Migrations\201907081251039_Create database and table.Designer.cs">
+      <DependentUpon>201907081251039_Create database and table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907081318216_Description.cs" />
+    <Compile Include="Migrations\201907081318216_Description.Designer.cs">
+      <DependentUpon>201907081318216_Description.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907081822215_unique.cs" />
+    <Compile Include="Migrations\201907081822215_unique.Designer.cs">
+      <DependentUpon>201907081822215_unique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\Admin\Public\css\bootstrap.min.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\404.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\add_faq.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\add_news.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\add_users.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\admin-login.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\admin_dashboard.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\calendar_custom.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\club_info.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\coupon.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\course_schedule.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\events.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\faq.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\figcaption.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\fitness.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\index.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\instructors.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\login.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\metisMenu.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\news.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\panel.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\payment.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\personaltraining.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\portfolio.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\single_user.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\timings.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\users_list.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\user_courses.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\user_course_schedule.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\user_dashboard.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\user_news.css" />
+    <Content Include="Areas\Admin\Public\css\custom_css\user_profile.css" />
+    <Content Include="Areas\Admin\Public\css\font-awesome.min.css" />
+    <Content Include="Areas\Admin\Public\fonts\fontawesome-webfont93e3.html" />
+    <Content Include="Areas\Admin\Public\fonts\fontawesome-webfont93e3.svg" />
+    <Content Include="Areas\Admin\Public\fonts\glyphicons-halflings-regular.html" />
+    <Content Include="Areas\Admin\Public\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Areas\Admin\Public\img\404.png" />
+    <Content Include="Areas\Admin\Public\img\404bg.png" />
+    <Content Include="Areas\Admin\Public\img\admin\event1.png" />
+    <Content Include="Areas\Admin\Public\img\admin\event2.png" />
+    <Content Include="Areas\Admin\Public\img\admin\event3.png" />
+    <Content Include="Areas\Admin\Public\img\admin\event4.png" />
+    <Content Include="Areas\Admin\Public\img\admin\event5.png" />
+    <Content Include="Areas\Admin\Public\img\admin\user1.png" />
+    <Content Include="Areas\Admin\Public\img\admin\user2.png" />
+    <Content Include="Areas\Admin\Public\img\admin\user3.png" />
+    <Content Include="Areas\Admin\Public\img\admin\user4.png" />
+    <Content Include="Areas\Admin\Public\img\admin\user5.png" />
+    <Content Include="Areas\Admin\Public\img\authors\avatar.jpg" />
+    <Content Include="Areas\Admin\Public\img\authors\avatar1.jpg" />
+    <Content Include="Areas\Admin\Public\img\authors\avatar5.jpg" />
+    <Content Include="Areas\Admin\Public\img\authors\avatar7.jpg" />
+    <Content Include="Areas\Admin\Public\img\events\1.png" />
+    <Content Include="Areas\Admin\Public\img\events\2.png" />
+    <Content Include="Areas\Admin\Public\img\events\3.png" />
+    <Content Include="Areas\Admin\Public\img\events\4.png" />
+    <Content Include="Areas\Admin\Public\img\events\5.png" />
+    <Content Include="Areas\Admin\Public\img\events\6.png" />
+    <Content Include="Areas\Admin\Public\img\events\7.png" />
+    <Content Include="Areas\Admin\Public\img\events\8.png" />
+    <Content Include="Areas\Admin\Public\img\fitness\f1.jpg" />
+    <Content Include="Areas\Admin\Public\img\fitness\f2.jpg" />
+    <Content Include="Areas\Admin\Public\img\fitness\f3.jpg" />
+    <Content Include="Areas\Admin\Public\img\fitness\jim1.jpg" />
+    <Content Include="Areas\Admin\Public\img\fitness\jim4.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\1.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\10.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\11.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\12.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\13.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\14.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\15.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\16.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\17.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\2.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\3.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\4.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\5.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\6.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\7.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\8.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\9.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\thumbs\1.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\thumbs\10.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\thumbs\11.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\thumbs\12.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\thumbs\13.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\thumbs\14.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\thumbs\15.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\thumbs\2.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\thumbs\3.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\thumbs\4.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\thumbs\5.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\thumbs\6.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\thumbs\7.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\thumbs\8.jpg" />
+    <Content Include="Areas\Admin\Public\img\gallery\thumbs\9.jpg" />
+    <Content Include="Areas\Admin\Public\img\loader-64x\Preloader_2.gif" />
+    <Content Include="Areas\Admin\Public\img\login-bg1.png" />
+    <Content Include="Areas\Admin\Public\img\logo.png" />
+    <Content Include="Areas\Admin\Public\js\bootstrap.min.js" />
+    <Content Include="Areas\Admin\Public\js\carousel.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\add_faq.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\add_gallery.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\add_news.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\add_users.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\admin_index.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\app.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\backstretch.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\club_info.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\coupon.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\courses.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\course_schedule.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\dashboard.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\events.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\jquery.card.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\login1.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\metisMenu.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\news.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\news_details.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\packages.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\payment.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\portfolio.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\rooms.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\single_user.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\timings.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\trainers.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\users_list.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\user_course_schedule.js" />
+    <Content Include="Areas\Admin\Public\js\custom_js\user_payment.js" />
+    <Content Include="Areas\Admin\Public\js\jquery.min.js" />
+    <Content Include="Areas\Admin\Public\vendors\air-datepicker-master\dist\css\datepicker.min.css" />
+    <Content Include="Areas\Admin\Public\vendors\air-datepicker-master\dist\js\datepicker.min.js" />
+    <Content Include="Areas\Admin\Public\vendors\air-datepicker-master\dist\js\i18n\datepicker.en.js" />
+    <Content Include="Areas\Admin\Public\vendors\bootstrap-datetimepicker\build\css\bootstrap-datetimepicker.min.css" />
+    <Content Include="Areas\Admin\Public\vendors\bootstrap-datetimepicker\build\js\bootstrap-datetimepicker.min.js" />
+    <Content Include="Areas\Admin\Public\vendors\bootstrapvalidator\dist\css\bootstrapValidator.css" />
+    <Content Include="Areas\Admin\Public\vendors\bootstrapvalidator\dist\js\bootstrapValidator.js" />
+    <Content Include="Areas\Admin\Public\vendors\chartsjs\chart.js" />
+    <Content Include="Areas\Admin\Public\vendors\chartsjs\floatchart\jquery.flot.categories.js" />
+    <Content Include="Areas\Admin\Public\vendors\chartsjs\floatchart\jquery.flot.min.js" />
+    <Content Include="Areas\Admin\Public\vendors\chartsjs\floatchart\jquery.flot.resize.min.js" />
+    <Content Include="Areas\Admin\Public\vendors\chartsjs\floatchart\jquery.flot.tooltip.js" />
+    <Content Include="Areas\Admin\Public\vendors\countUp\countUp.js" />
+    <Content Include="Areas\Admin\Public\vendors\d3-chart\d3.v3.min.js" />
+    <Content Include="Areas\Admin\Public\vendors\d3-liquid-fill-gauge-master\liquidFillGauge.js" />
+    <Content Include="Areas\Admin\Public\vendors\datatables\css\dataTables.bootstrap.css" />
+    <Content Include="Areas\Admin\Public\vendors\datatables\css\dataTables.bootstrap.min.css" />
+    <Content Include="Areas\Admin\Public\vendors\datatables\images\sort_asc.png" />
+    <Content Include="Areas\Admin\Public\vendors\datatables\images\sort_both.png" />
+    <Content Include="Areas\Admin\Public\vendors\datatables\images\sort_desc.png" />
+    <Content Include="Areas\Admin\Public\vendors\datatables\js\dataTables.bootstrap.js" />
+    <Content Include="Areas\Admin\Public\vendors\datatables\js\dataTables.bootstrap.min.js" />
+    <Content Include="Areas\Admin\Public\vendors\datatables\js\jquery.dataTables.js" />
+    <Content Include="Areas\Admin\Public\vendors\datatables\js\jquery.dataTables.min.js" />
+    <Content Include="Areas\Admin\Public\vendors\fancyBox\source\blank.gif" />
+    <Content Include="Areas\Admin\Public\vendors\fancyBox\source\fancybox_loading%402x.gif" />
+    <Content Include="Areas\Admin\Public\vendors\fancyBox\source\fancybox_loading.gif" />
+    <Content Include="Areas\Admin\Public\vendors\fancyBox\source\fancybox_overlay.png" />
+    <Content Include="Areas\Admin\Public\vendors\fancyBox\source\fancybox_sprite%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\fancyBox\source\fancybox_sprite.png" />
+    <Content Include="Areas\Admin\Public\vendors\fancyBox\source\helpers\fancybox_buttons.png" />
+    <Content Include="Areas\Admin\Public\vendors\fancyBox\source\helpers\jquery.fancybox-buttons3447.css" />
+    <Content Include="Areas\Admin\Public\vendors\fancyBox\source\helpers\jquery.fancybox-buttons3447.js" />
+    <Content Include="Areas\Admin\Public\vendors\fancyBox\source\jquery.fancybox.pack8cbb.js" />
+    <Content Include="Areas\Admin\Public\vendors\fancyBox\source\jquery.fancybox8cbb.css" />
+    <Content Include="Areas\Admin\Public\vendors\fancyBox\source\jquery.fancybox8cbb.js" />
+    <Content Include="Areas\Admin\Public\vendors\fullcalendar\css\fullcalendar.css" />
+    <Content Include="Areas\Admin\Public\vendors\fullcalendar\fullcalendar.js" />
+    <Content Include="Areas\Admin\Public\vendors\holder\holder.js" />
+    <Content Include="Areas\Admin\Public\vendors\holder\holder.min.js" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\icheck.js" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\icheck.min.js" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\all.css" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\flat\aero%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\flat\aero.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\flat\blue%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\flat\blue.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\flat\flat%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\flat\flat.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\flat\green%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\flat\green.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\flat\grey%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\flat\grey.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\flat\orange%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\flat\orange.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\flat\pink%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\flat\pink.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\flat\purple%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\flat\purple.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\flat\red%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\flat\red.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\flat\yellow%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\flat\yellow.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\flat\_all.css" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\futurico\futurico%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\futurico\futurico.css" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\futurico\futurico.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\line\line%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\line\line.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\line\_all.css" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\aero%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\aero.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\blue%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\blue.css" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\blue.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\green%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\green.css" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\green.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\grey%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\grey.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\minimal%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\minimal.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\orange%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\orange.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\pink%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\pink.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\purple%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\purple.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\red%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\red.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\yellow%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\yellow.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\minimal\_all.css" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\polaris\polaris%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\polaris\polaris.css" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\polaris\polaris.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\square\aero%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\square\aero.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\square\blue%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\square\blue.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\square\green%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\square\green.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\square\grey%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\square\grey.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\square\orange%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\square\orange.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\square\pink%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\square\pink.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\square\purple%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\square\purple.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\square\red%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\square\red.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\square\square%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\square\square.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\square\yellow%402x.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\square\yellow.png" />
+    <Content Include="Areas\Admin\Public\vendors\iCheck\skins\square\_all.css" />
+    <Content Include="Areas\Admin\Public\vendors\ihover\ihover.css" />
+    <Content Include="Areas\Admin\Public\vendors\inputmask\inputmask\inputmask.date.extensions.js" />
+    <Content Include="Areas\Admin\Public\vendors\inputmask\inputmask\inputmask.js" />
+    <Content Include="Areas\Admin\Public\vendors\inputmask\inputmask\jquery.inputmask.js" />
+    <Content Include="Areas\Admin\Public\vendors\jasny-bootstrap\css\jasny-bootstrap.css" />
+    <Content Include="Areas\Admin\Public\vendors\jasny-bootstrap\css\jasny-bootstrap.min.css" />
+    <Content Include="Areas\Admin\Public\vendors\jasny-bootstrap\js\inputmask.js" />
+    <Content Include="Areas\Admin\Public\vendors\jasny-bootstrap\js\jasny-bootstrap.js" />
+    <Content Include="Areas\Admin\Public\vendors\jasny-bootstrap\js\jasny-bootstrap.min.js" />
+    <Content Include="Areas\Admin\Public\vendors\jasny-bootstrap\js\jquery.inputmask.js" />
+    <Content Include="Areas\Admin\Public\vendors\jquery-circliful\css\jquery.circliful.css" />
+    <Content Include="Areas\Admin\Public\vendors\jquery-circliful\js\jquery.circliful.min.js" />
+    <Content Include="Areas\Admin\Public\vendors\jquery-easy-ticker-master\jquery.easy-ticker.min.js" />
+    <Content Include="Areas\Admin\Public\vendors\jQuery-File-Upload\css\jquery.fileupload-ui.css" />
+    <Content Include="Areas\Admin\Public\vendors\jQuery-File-Upload\css\jquery.fileupload.css" />
+    <Content Include="Areas\Admin\Public\vendors\jQuery-File-Upload\img\loading.gif" />
+    <Content Include="Areas\Admin\Public\vendors\jQuery-File-Upload\img\progressbar.gif" />
+    <Content Include="Areas\Admin\Public\vendors\jQuery-File-Upload\js\jquery.fileupload-image.js" />
+    <Content Include="Areas\Admin\Public\vendors\jQuery-File-Upload\js\jquery.fileupload-process.js" />
+    <Content Include="Areas\Admin\Public\vendors\jQuery-File-Upload\js\jquery.fileupload-ui.js" />
+    <Content Include="Areas\Admin\Public\vendors\jQuery-File-Upload\js\jquery.fileupload-validate.js" />
+    <Content Include="Areas\Admin\Public\vendors\jQuery-File-Upload\js\jquery.fileupload.js" />
+    <Content Include="Areas\Admin\Public\vendors\jQuery-File-Upload\js\load-image.min.js" />
+    <Content Include="Areas\Admin\Public\vendors\jQuery-File-Upload\js\main.js" />
+    <Content Include="Areas\Admin\Public\vendors\jQuery-File-Upload\js\tmpl.min.js" />
+    <Content Include="Areas\Admin\Public\vendors\jQuery-File-Upload\js\vendor\jquery.ui.widget.js" />
+    <Content Include="Areas\Admin\Public\vendors\mixitup\jquery.mixitup.js" />
+    <Content Include="Areas\Admin\Public\vendors\moment\min\moment.min.js" />
+    <Content Include="Areas\Admin\Public\vendors\moment\moment.js" />
+    <Content Include="Areas\Admin\Public\vendors\nvd3chart\nv.d3.min.css" />
+    <Content Include="Areas\Admin\Public\vendors\nvd3chart\nv.d3.min.js" />
+    <Content Include="Areas\Admin\Public\vendors\owl-carousel\AjaxLoader.gif" />
+    <Content Include="Areas\Admin\Public\vendors\owl-carousel\grabbing.png" />
+    <Content Include="Areas\Admin\Public\vendors\owl-carousel\owl.carousel.css" />
+    <Content Include="Areas\Admin\Public\vendors\owl-carousel\owl.carousel.js" />
+    <Content Include="Areas\Admin\Public\vendors\owl-carousel\owl.theme.css" />
+    <Content Include="Areas\Admin\Public\vendors\progressbar\bootstrap-progressbar.js" />
+    <Content Include="Areas\Admin\Public\vendors\progressbar\bootstrap-progressbar.min.js" />
+    <Content Include="Areas\Admin\Public\vendors\progressbar\css\bootstrap-progressbar.min.css" />
+    <Content Include="Areas\Admin\Public\vendors\select2\css\select2-bootstrap.min.css" />
+    <Content Include="Areas\Admin\Public\vendors\select2\css\select2.css" />
+    <Content Include="Areas\Admin\Public\vendors\select2\css\select2.min.css" />
+    <Content Include="Areas\Admin\Public\vendors\select2\js\select2.full.js" />
+    <Content Include="Areas\Admin\Public\vendors\select2\js\select2.min.js" />
+    <Content Include="Areas\Admin\Public\vendors\select\dist\css\bootstrap-select.min.css" />
+    <Content Include="Areas\Admin\Public\vendors\summernote\summernote-bs3.css" />
+    <Content Include="Areas\Admin\Public\vendors\summernote\summernote.css" />
+    <Content Include="Areas\Admin\Public\vendors\summernote\summernote.min.js" />
+    <Content Include="Areas\Admin\Public\vendors\sweetalert\dist\sweetalert2.css" />
+    <Content Include="Areas\Admin\Public\vendors\sweetalert\dist\sweetalert2.js" />
+    <Content Include="Areas\Admin\Public\vendors\tags\dist\bootstrap-tagsinput.css" />
+    <Content Include="Areas\Admin\Public\vendors\tags\dist\bootstrap-tagsinput.js" />
+    <Content Include="Areas\Admin\Public\vendors\vertical-timeline\css\reset.css" />
+    <Content Include="Areas\Admin\Public\vendors\vertical-timeline\css\style.css" />
+    <Content Include="Areas\Admin\Public\vendors\vertical-timeline\js\main.js" />
+    <Content Include="Areas\Admin\Public\vendors\vertical-timeline\js\modernizr.js" />
+    <Content Include="Areas\Admin\Public\vendors\x-editable\bootstrap-editable.js" />
+    <Content Include="Areas\Admin\Public\vendors\x-editable\css\bootstrap-editable.css" />
+    <Content Include="Areas\Admin\Public\vendors\x-editable\img\clear.png" />
+    <Content Include="Areas\Admin\Public\vendors\x-editable\img\loading.gif" />
+    <Content Include="Areas\Admin\Public\vendors\x-editable\jquery.mockjax.js" />
+    <Content Include="Areas\Admin\Public\vendors\x-editable\js\demo-mock.js" />
+    <Content Include="Areas\Admin\Public\vendors\x-editable\js\html5types.js" />
+    <Content Include="Content\Site.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_LayoutFitness.cshtml" />
+    <Content Include="Areas\Admin\Public\fonts\fontawesome-webfont93e3.eot" />
+    <Content Include="Areas\Admin\Public\fonts\fontawesome-webfont93e3.ttf" />
+    <Content Include="Areas\Admin\Public\fonts\fontawesome-webfont93e3.woff" />
+    <Content Include="Areas\Admin\Public\fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="Areas\Admin\Public\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Areas\Admin\Public\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Areas\Admin\Public\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Areas\Admin\Public\fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\ClubInfo\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Packages\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Coupons\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\ClassCalendar\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\CourseSchedule\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\CourseSchedule\Courses.cshtml" />
+    <Content Include="Areas\Admin\Views\CourseSchedule\Rooms.cshtml" />
+    <Content Include="Areas\Admin\Views\CourseSchedule\Trainers.cshtml" />
+    <Content Include="Areas\Admin\Views\Users\UsersList.cshtml" />
+    <Content Include="Areas\Admin\Views\Users\UserProfile.cshtml" />
+    <Content Include="Areas\Admin\Views\Users\AddUsers.cshtml" />
+    <Content Include="Areas\Admin\Views\Users\Payments.cshtml" />
+    <Content Include="Areas\Admin\Views\CourseSchedules\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\CourseSchedules\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\CourseSchedules\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\CourseSchedules\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\CourseSchedules\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\Index.cshtml" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201907081251039_Create database and table.resx">
+      <DependentUpon>201907081251039_Create database and table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907081318216_Description.resx">
+      <DependentUpon>201907081318216_Description.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907081822215_unique.resx">
+      <DependentUpon>201907081822215_unique.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55315</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:55315/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>
